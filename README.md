@@ -2,6 +2,9 @@
 File Association for Windows, to use with Lazarus IDE
 
 # Usage
+First install the package. You can then drop the component TFileAssociation (FileAssoc unit) that gets installed in the System tab of the IDE on your form.
+
+All parameters are mandatory. Especially ActionName which must be 'Open' to work with double click. This is useful as well for default commands like 'Edit' and 'Print'. This must be in English for 'Edit', 'Open' and 'Print' so it can access the right registry entry. You can customize the translation with ActionText.
 
 ```pascal
 ...
