@@ -1,4 +1,4 @@
-{ FileAssociation 2013-2016 by Lainz }
+{ FileAssociation 2013-2019 by Lainz }
 unit FileAssoc;
 
 {$mode objfpc}{$H+}
